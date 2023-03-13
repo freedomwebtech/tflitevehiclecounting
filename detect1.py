@@ -20,7 +20,7 @@ import cv2
 from tflite_support.task import core
 from tflite_support.task import processor
 from tflite_support.task import vision
-import utils1
+import utils
 
 
 def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
